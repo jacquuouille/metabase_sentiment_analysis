@@ -73,7 +73,7 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 - Middle ratings (1★, 2★) have more moderate subjectivity score, suggesting factual complaints and personal perceptions.
 - **Customers writting highly subjective reviews are expressing personal feelings, not just facts.**
 
-## 📚 Python libraries 
+## 📚 Python Libraries 
 - **VADER**: sentiment analyzer that scores text on polarity, giving values from -1 (very negative) to 1 (very positive). It’s optimized for social media and short text.
   - `customer_score`: overall sentiment score normalized between -1 (most negative) and +1 (most positive).
 - **TextBlob**: text processing. One of its features is subjectivity analysis, which scores how subjective or opinionated a piece of text is, from 0 (completely objective) to 1 (completely subjective). TextBlob also has a sentiment analyzer, but in your example, you’re using it for subjectivity.
@@ -81,6 +81,9 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 
 ## 🛠️ Technology Stack
 - Metabase, PostgreSQL, Python, Docker, VS Code , Github
+
+## ℹ️ Data Source
+[Kaggle](https://www.kaggle.com/datasets/thedevastator/booking-com-hotel-reviews?resource=download)
 
 ## 👨‍💻 Author
 **Jacques Hervochon** 
