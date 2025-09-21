@@ -1,11 +1,11 @@
 # Metabase Project: Customer Sentiment Analysis Dashboard
 
-### 📖 Overview
+## 📖 Overview
 Providing a comprehensive view of reviews to uncover patterns in satisfaction, motivations and frustrations, with a focus on subjectivity to helps separate between factual and opinion-driven sentiment.
 
 ![Customer Experience Dashboard](screenshots/dash_cust_exp.png)
 
-### 📁 Data Model
+## 📁 Data Model
 
 To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator/booking-com-hotel-reviews/data) → `hotels_reviews.csv` 
 
@@ -29,7 +29,7 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 | meta              | json/text  | Additional metadata                   |
 
 
-### 🧹 Data Cleaning
+## 🧹 Data Cleaning
 
 **1. Split the array** into multiple parts using a separator
 ```sql
@@ -51,7 +51,21 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 |-------|---------|-----|-----------|-----------------|
 | 4     | Sue   | ... | Positive  |"The view was great, the apartment furnished in a modern style and equipped with everything you may need. The apartment was clean. There is free, secure parking outside in the building’s parking lot or downstairs in the garage. Jan always responded promptly to all messages sent via Booking.com messenger.  " |
 | 4     | Sue     | ... | Negative   | "The building itself has a very musty smell in the hallway (despite being built in 1988), but the apartment itself smells good, which makes it bearable. When showering, the hot water goes off every 2-3 minutes for about 20-30 seconds and then only cold water comes out. The hot water then comes back again. This should be checked out. That is the only thing we didn’t like about the apartment. " | 
-  		
+
+
+## 📊 Dashboard 
+
+#### KPIs (Customer Experience Report)
+1. **Average Star Rating →** 4.3 / 5
+2. **Reviews (#) →** 18,515
+3. **Positive Reviews (%) →** 87.6%
+4. **Neutral Reviews (%) →** 8.8%
+5. **Negative Reviews (%) →** 3.6%
+
+#### KPIs (Customer Sentiment Report)
+1. **Average Customer Score →** 0.8 (from -1 to 1; VADER Sentiment Analyzer)
+2. **Average Customer Subjectivity →** (from 0 to 1; TextLob Text Processing) 
+
 
 ### 🛠️ Technology Stack
 - **Docker →** for running Metabase locally or on a server (open-source)
