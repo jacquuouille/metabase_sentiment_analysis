@@ -1,0 +1,6 @@
+- Hotel Reviews Dataset Source:
+https://www.kaggle.com/datasets/thedevastator/booking-com-hotel-reviews?resource=download 
+
+- Hotel Reviews Dataset Context:
+The Booking.com Reviews Dataset is a comprehensive collection of hotel reviews and ratings gathered from the popular travel booking website, Booking.com. 
+This dataset provides valuable insights into the experiences and opinions of customers who have stayed at various hotels across different locations.
