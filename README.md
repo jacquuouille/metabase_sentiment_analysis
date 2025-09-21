@@ -3,7 +3,7 @@
 ### 📖 Overview
 Providing a comprehensive view of reviews to uncover patterns in satisfaction, motivations and frustrations, with a focus on subjectivity to helps separate between factual and opinion-driven sentiment.
 
-<img src="customer_experience.png" height="487" width="259">
+<img src="dash_cust_exp.png" height="487" width="259">
 
 
 ### 🛠️ Technology Stack
