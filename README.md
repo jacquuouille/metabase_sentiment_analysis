@@ -86,9 +86,7 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 [Kaggle](https://www.kaggle.com/datasets/thedevastator/booking-com-hotel-reviews?resource=download)
 
 ## 👨‍💻 Author
-**Jacques Hervochon** 
-
-🟦 [LinkedIn](https://www.linkedin.com/in/jacques-hervochon-27448898) |
+**Jacques Hervochon** 🟦 [LinkedIn](https://www.linkedin.com/in/jacques-hervochon-27448898) |
 🔗 [Portfolio](https://jacqueshervochon.carrd.co/#) |
 📆 [Book a call](https://calendly.com/jacqueshervochon/30min)
 
