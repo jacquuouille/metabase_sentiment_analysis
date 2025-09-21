@@ -69,7 +69,7 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 ## 📈 Key Learning:
 
 - Customer Experience is positive overall accross all hotels and amenities.
-- More reviews are clustered at higher ratings (4-5), which strengthen customers are generally satisfied.
+- More reviews are clustered at higher ratings (4★ and 5★), which strengthen customers are generally satisfied.
 - Reviews at extreme rating (0★, 3★, 4★ or 5★) often have higher subjectivity, reflecting more emotions (really good or bad experience).
 - Middle ratings (1★, 2★) have more moderate subjectivity score, suggesting factual complaints and personal perceptions.
 - **Customers writting highly subjective reviews are expressing personal feelings, not just facts.**
