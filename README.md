@@ -3,7 +3,8 @@
 ### 📖 Overview
 Providing a comprehensive view of reviews to uncover patterns in satisfaction, motivations and frustrations, with a focus on subjectivity to helps separate between factual and opinion-driven sentiment.
 
-![Customer Experience](screenshots/customer_experience.png)
+![Customer Experience Dashboard](screenshots/dash_cust_exp.png)
+
 
 ### 🛠️ Technology Stack
 - **Docker →** for running Metabase locally or on a server (open-source)
