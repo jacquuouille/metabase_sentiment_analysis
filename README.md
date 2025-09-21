@@ -74,12 +74,19 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 - Middle ratings (1★, 2★) have more moderate subjectivity score, suggesting factual complaints and personal perceptions.
 - **Customers writting highly subjective reviews are expressing personal feelings, not just facts.**
 
-### 🛠️ Technology Stack
-- **Docker →** for running Metabase locally or on a server (open-source)
-- **VS Code →** for writting Python scripts to connect to data sources
-- **PostgreSQL →** for storing and manipulating data
-- **Python →** for performing statistical analysis
-- **Metabase →** for creating interactive dashboards and analyzing data
-- **Github →** for hosting and sharing portfolio projects
+## 📚 Python libraries 
+- **VADER**: sentiment analyzer that scores text on polarity, giving values from -1 (very negative) to 1 (very positive). It’s optimized for social media and short text.
+  - `customer_score`: overall sentiment score normalized between -1 (most negative) and +1 (most positive).
+- **TextBlob**: text processing. One of its features is subjectivity analysis, which scores how subjective or opinionated a piece of text is, from 0 (completely objective) to 1 (completely subjective). TextBlob also has a sentiment analyzer, but in your example, you’re using it for subjectivity.
+  - `customer_subjectivity`: measures how subjective or opinion-based a text is (0 (completely objective) to 1 (completely subjective)).
+
+## 🛠️ Technology Stack
+- Metabase, PostgreSQL, Python, Docker, VS Code , Github
+
+## Author
+**Jacques Hervochon**
+🟦 [LinkedIn](https://www.linkedin.com/in/jacques-hervochon-27448898)
+🔗 [Portfolio](https://jacqueshervochon.carrd.co/#)
+📆 [Book a call](https://calendly.com/jacqueshervochon/30min)
 
 
