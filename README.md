@@ -29,8 +29,29 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 | meta              | json/text  | Additional metadata                   |
 
 
+### 🧹 Data Cleaning
 
+**1. Split the array** into multiple parts using a separator
+```sql
+string_to_array(raw_review_text, ',<p') as array_split
+```
 
+**2. Turn them into a set of rows**:
+```sql
+unnest(array_split) as array_row
+```
+**3. Extract the reviews from the text part**:
+```sql
+, regexp_matches(part, '<svg[^>]*aria-label="([^"]+)"', 'g') as sentiment
+, regexp_matches(part, '<span itemprop="reviewBody">([^<]+)</span>', 'g') AS sentiment_review
+```
+
+**4. Generated new columns** (each customer's review can have a positive and negative part as well)
+| index | reviewer | ... | sentiment | sentiment_review |
+|-------|---------|-----|-----------|-----------------|
+| 4     | Sue   | ... | Positive  |"The view was great, the apartment furnished in a modern style and equipped with everything you may need. The apartment was clean. There is free, secure parking outside in the building’s parking lot or downstairs in the garage. Jan always responded promptly to all messages sent via Booking.com messenger.  " |
+| 4     | Sue     | ... | Neutral   | "The building itself has a very musty smell in the hallway (despite being built in 1988), but the apartment itself smells good, which makes it bearable. When showering, the hot water goes off every 2-3 minutes for about 20-30 seconds and then only cold water comes out. The hot water then comes back again. This should be checked out. That is the only thing we didn’t like about the apartment. " | 
+  		
 
 ### 🛠️ Technology Stack
 - **Docker →** for running Metabase locally or on a server (open-source)
@@ -39,3 +60,5 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 - **Python →** for performing statistical analysis
 - **Metabase →** for creating interactive dashboards and analyzing data
 - **Github →** for hosting and sharing portfolio projects
+
+
