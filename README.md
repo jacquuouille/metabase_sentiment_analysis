@@ -3,6 +3,7 @@
 ### 📖 Overview
 Providing a comprehensive view of reviews to uncover patterns in satisfaction, motivations and frustrations, with a focus on subjectivity to helps separate between factual and opinion-driven sentiment.
 
+
 ### 🛠️ Technology Stack
 - **Docker →** for running Metabase locally or on a server (open-source)
 - **VS Code →** for writting Python scripts to connect to data sources
