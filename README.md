@@ -3,7 +3,7 @@
 ## 📖 Overview
 Providing a comprehensive view of reviews to uncover patterns in satisfaction, motivations and frustrations, with a focus on subjectivity to helps separate between factual and opinion-driven sentiment.
 
-👉 [Metabase Dashboard](https://www.youtube.com/watch?v=4pVWU9rdlxQ)
+👉 [Metabase Dashboard Video Link](https://www.youtube.com/watch?v=4pVWU9rdlxQ)
 
 ![Customer Experience Dashboard](screenshots/dash_cust_exp.png)
 
