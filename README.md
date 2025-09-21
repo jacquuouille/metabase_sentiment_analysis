@@ -66,6 +66,13 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 1. **Average Customer Score →** 0.8 (from -1 to 1; VADER Sentiment Analyzer)
 2. **Average Customer Subjectivity →** (from 0 to 1; TextLob Text Processing) 
 
+## 📈 Key Learning:
+
+- Customer Experience is positive overall accross all hotels and amenities.
+- More reviews are clustered at higher ratings (4-5), which strengthen customers are generally satisfied.
+- Reviews at extreme rating (0★, 3★, 4★ or 5★) often have higher subjectivity, reflecting more emotions (really good or bad experience).
+- Middle ratings (1★, 2★) have more moderate subjectivity score, suggesting factual complaints and personal perceptions.
+- **Customers writting highly subjective reviews are expressing personal feelings, not just facts.**
 
 ### 🛠️ Technology Stack
 - **Docker →** for running Metabase locally or on a server (open-source)
