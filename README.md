@@ -68,10 +68,15 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 
 ## 📈 Key Learnings:
 - Customer Experience is positive overall accross all hotels and amenities.
-- More reviews are clustered at higher ratings (4★ and 5★), which strengthen customers are generally satisfied.
+- More reviews are clustered at higher ratings (4★–5★), which strengthen customers are generally satisfied.
 - Reviews at extreme rating (0★, 3★, 4★ or 5★) often have higher subjectivity, reflecting more emotions (really good or bad experience).
-- Middle ratings (1★, 2★) have more moderate subjectivity score, suggesting factual complaints and personal perceptions.
+- Middle ratings (1★–2★) have more moderate subjectivity score, suggesting factual complaints and personal perceptions.
 - **Customers writting highly subjective reviews are expressing personal feelings, not just facts.**
+
+## ✅ Next Steps
+- **Leverage positive review:** highlight 4★–5★ feedback in marketing campaigns & encourage satisfied customers to share experiences on external platforms.
+- **Address factual complaints quickly:** investigate recurring 1★–2★ themes (e.g., cleanliness, staff response, amenities not working) and build a “quick-fix” escalation process for operational issues.
+- **Close the loop with customers:** respond to extreme reviews (both positive and negative) to show empathy and engagement & offer personalized recovery strategies for emotionally negative experiences.
 
 ## 📚 Python Libraries 
 - **VADER**: sentiment analyzer that scores text on polarity, giving values from -1 (very negative) to 1 (very positive). It’s optimized for social media and short text.
