@@ -64,7 +64,7 @@ To download directly from [Kaggle](https://www.kaggle.com/datasets/thedevastator
 
 #### KPIs (Customer Sentiment Report)
 1. **Average Customer Score →** 0.8 (from -1 to 1; VADER Sentiment Analyzer)
-2. **Average Customer Subjectivity →** (from 0 to 1; TextLob Text Processing) 
+2. **Average Customer Subjectivity →** 0.6 (from 0 to 1; TextLob Text Processing) 
 
 ## 📈 Key Learnings
 - Customer Experience is positive overall accross all hotels and amenities.
